@@ -2,7 +2,7 @@
 
 ### Objective
 
-Create an input with a load members button to fetch a list of members from an organization on GitHub, and display them in a table. Use redux.
+Create an input with a load members button to fetch a list of members from an organization on GitHub, and display them in a table. Use Redux.
 
 ### Added extras
 

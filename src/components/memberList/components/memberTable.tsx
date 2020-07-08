@@ -17,12 +17,13 @@ interface Props {
 
 export const MemberTableComponent = (props: Props) => {
   const { members } = props;
+  const tableHeaders = ['Avatar', 'Id', 'Name', 'Details'];
   return (
     <TableContainer component={Paper}>
       <Table>
         <TableHead>
           <TableRow>
-            {['Avatar', 'Id', 'Name', 'Details'].map((item) => (
+            {tableHeaders.map((item) => (
               <TableCell
                 style={{ fontWeight: 'bold', color: '#fff' }}
                 key={item}
